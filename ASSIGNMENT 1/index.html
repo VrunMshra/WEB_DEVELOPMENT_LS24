@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Clash Royale</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#overview">Game Overview</a></li>
+                <li class="nav-item"><a href="#highlights">Game Highlights</a></li>
+                <li class="nav-item"><a href="#get-started">How to Get Started</a></li>
+                <li class="nav-item"><a href="#interactive">Interactive Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="overview" class="section">
+            <h2>Game Overview</h2>
+            <img src="https://assets-prd.ignimgs.com/2022/05/27/clashroyale-1653673820137.jpg" alt="Clash Royale" class="section-image">
+            <p>Clash Royale is a real-time strategy game developed by Supercell. Released in 2016, the game combines elements from collectible card games, tower defense, and multiplayer online battle arena.</p>
+        </section>
+
+        <section id="highlights" class="section">
+            <h2>Game Highlights</h2>
+            <img src="https://readwrite.com/wp-content/uploads/2024/02/clash_royale.jpg" alt="Clash Royale Highlights" class="section-image">
+            <p>Key highlights of Clash Royale include:</p>
+            <ul>
+                <li>The release of new cards and arenas.</li>
+                <li>Exciting tournaments like the Clash Royale League.</li>
+                <li>Memorable moments from legendary players like Surgical Goblin and Morten.</li>
+            </ul>
+        </section>
+
+        <section id="get-started" class="section">
+            <h2>How to Get Started</h2>
+            <img src="https://www.esports.net/wp-content/uploads/2023/09/clash-royale-pic-e1693653278991.webp" alt="Get Started" class="section-image">
+            <p>To start playing Clash Royale, you need:</p>
+            <ul>
+                <li>A smartphone or tablet.</li>
+                <li>An internet connection.</li>
+                <li>The Clash Royale app installed.</li>
+            </ul>
+            <p>Beginner tips:</p>
+            <ul>
+                <li>Learn the strengths and weaknesses of each card.</li>
+                <li>Join a clan to get help and participate in clan wars.</li>
+                <li>Watch top players' matches to improve your strategies.</li>
+            </ul>
+        </section>
+
+        <section id="interactive" class="section">
+            <h2>Interactive Quiz</h2>
+            <div id="quiz">
+                <div class="question">
+                    <p>Question 1: What is the highest level for cards in Clash Royale?</p>
+                    <label><input type="radio" name="q1" value="11"> 11</label><br>
+                    <label><input type="radio" name="q1" value="13"> 13</label><br>
+                    <label><input type="radio" name="q1" value="14"> 14</label><br>
+                </div>
+                <div class="question">
+                    <p>Question 2: Which of these is a legendary card?</p>
+                    <label><input type="radio" name="q2" value="Knight"> Knight</label><br>
+                    <label><input type="radio" name="q2" value="Archer"> Archer</label><br>
+                    <label><input type="radio" name="q2" value="Mega Minion"> Mega Minion</label><br>
+                    <label><input type="radio" name="q2" value="Ice Wizard"> Ice Wizard</label><br>
+                </div>
+                <div class="question">
+                    <p>Question 3: What is the cost of the Elixir Collector card?</p>
+                    <label><input type="radio" name="q3" value="4"> 4</label><br>
+                    <label><input type="radio" name="q3" value="5"> 5</label><br>
+                    <label><input type="radio" name="q3" value="6"> 6</label><br>
+                    <label><input type="radio" name="q3" value="7"> 7</label><br>
+                </div>
+                <button onclick="checkAnswers()">Submit</button>
+                <p id="result"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Made by Varun</p>
+        <div class="footer-links">
+            <a href="https://clashroyale.com">Official Game Website</a>
+            <a href="https://www.reddit.com/r/ClashRoyale/">Clash Royale Forums</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
